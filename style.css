@@ -1,0 +1,82 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 8%);
+    margin: 25px;
+    padding: 25px;
+    border-radius: 5%;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.discription {
+    text-align: center;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+}
+
+.name {
+    padding: 5px;
+    margin: 0%;
+}
+
+.address {
+    padding: none;
+    margin: 0%;
+    color: hsl(75, 94%, 57%);
+}
+
+.about {
+    padding: 20px;
+    margin: 0%;
+}
+
+.buttons {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    
+}
+
+button {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.watermark {
+    color: aliceblue;
+    font-size: .5rem;
+}
