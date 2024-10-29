@@ -60,7 +60,6 @@ i learned that there are other tools to meaure the size of the design.
 
 I want to continue learning in responsive design.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
